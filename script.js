@@ -84,7 +84,7 @@ btnHold.addEventListener('click',function()
         let c = Number(score1El.textContent);
         c+= Number(ce.textContent);
         score1El.textContent = c;
-        if(c>=20)
+        if(c>=30)
         {
             ape = document.querySelector('.player--1');
             ape.classList.remove('player--active');
