@@ -70,7 +70,7 @@ btnHold.addEventListener('click',function()
         c+= Number(ce.textContent);
         score0El.textContent = c;
 
-        if(c>=20)
+        if(c>=30)
         {
             ape = document.querySelector('.player--0');
             ape.classList.remove('player--active');
